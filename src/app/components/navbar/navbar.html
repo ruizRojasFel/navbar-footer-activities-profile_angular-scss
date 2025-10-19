@@ -1,11 +1,22 @@
 <nav>
     <div>
-        <img src="./generica.webp" alt="Logo">
-        <span>My first Angular</span>
+
+        <div>
+            <img src="./generica.webp" alt="Logo">
+            <span>My first Angular</span>
+        </div>
+
+        <div>
+            <ul>
+                <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+                <li><a routerLink="/activities" routerLinkActive="active">Activities</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <button routerLink="/register" routerLinkActive="active">Sign Up</button>
+            <button routerLink="/login" routerLinkActive="active">Sign In</button>
+        </div>
+
     </div>
-    <ul>
-        <li><a routerLink="/" routerLinkActive="active">Home</a></li>
-        <li><a routerLink="/activities" routerLinkActive="active">Activities</a></li>
-        <li><a routerLink="/login" routerLinkActive="active">Login In</a></li>
-    </ul>
 </nav>

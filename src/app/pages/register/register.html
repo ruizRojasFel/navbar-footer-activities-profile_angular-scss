@@ -1,0 +1,90 @@
+<h1>Register Page</h1>
+
+<p>Welcome to Angular's register page</p>
+
+<form>
+    <div>
+
+        <!-- Name -->
+        <div>
+            <label for="name">Name </label>
+            <input id="name" name="name" type="text" required placeholder="John" />
+        </div>
+
+        <!-- Lastname -->
+        <div>
+            <label for="lastname">Lastname </label>
+            <input id="lastname" name="lastname" type="text" required placeholder="Doe" />
+        </div>
+
+        <!-- Date of birth -->
+        <div>
+            <label for="dob">Date of birth </label>
+            <input id="dob" name="dob" type="date" required />
+        </div>
+
+        <!-- Address -->
+        <div>
+            <label for="address">Address </label>
+            <input id="address" name="address" type="text" required placeholder="123 Main St" />
+        </div>
+
+        <!-- Country and region -->
+        <div>
+            <label for="country"> Country </label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>"
+            </select>
+
+            <label for="region"> Region </label>
+            <select id="region" name="region" required>
+                <option value="">Select your region</option>"
+            </select>
+        </div>
+
+        <!-- Phone -->
+        <div>
+            <label for="countryCode"> Country code </label>
+            <input id="countryCode" name="countryCode" type="tel" required placeholder="+56" />
+
+            <label for="phone"> Phone number </label>
+            <input id="phone" name="phone" type="tel" required placeholder="987654321" />
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email </label>
+            <input id="email" name="email" type="email" required placeholder="john.doe@example.com" />
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label for="password">Password </label>
+            <input id="password" name="password" type="password" required placeholder="••••••••" />
+        </div>
+
+        <!-- Confirm password -->
+        <div>
+            <label for="confirmPassword">Confirm your password </label>
+            <input id="confirmPassword" name="confirmPassword" type="password" required placeholder="••••••••" />
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Create Account</button>
+        </div>
+
+    </div>
+</form>
+
+<!--
+        <fieldset>
+            <legend>Enter your phone number</legend>
+
+            <label for="countryCode">Country code</label>
+            <input id="countryCode" name="countryCode" type="tel" required placeholder="+1" />
+
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" required placeholder="5551234567" />
+        </fieldset>
+-->

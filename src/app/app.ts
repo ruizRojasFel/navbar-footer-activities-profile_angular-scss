@@ -1,14 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Footer } from "./components/footer/footer";
 import { Navbar } from "./components/navbar/navbar";
+import { Footer } from "./components/footer/footer";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar,Footer, RouterOutlet], //RouterOutlet
+  imports: [RouterOutlet, Navbar, Footer],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class App {
-  protected readonly title = signal('navbar-footer-activities-profile_angular-scss');
+  protected readonly title = signal('My first Angular');
 }
