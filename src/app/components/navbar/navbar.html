@@ -1,3 +1,35 @@
+<nav class="navbar">
+    <div class="navbar__inner container">
+
+        <!-- Marca -->
+        <div class="navbar__brand">
+            <img src="./generica.webp" alt="Logo" class="navbar__logo" />
+            <span class="navbar__title">My First Angular</span>
+        </div>
+
+        <!-- Enlaces -->
+        <ul class="navbar__links">
+            <li>
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+            </li>
+            <li>
+                <a routerLink="/activities" routerLinkActive="active">Activities</a>
+            </li>
+        </ul>
+
+        <!-- Acciones -->
+        <div class="navbar__actions">
+            <button class="btn btn--secondary" routerLink="/register">Sign Up</button>
+            <button class="btn" routerLink="/login">Sign In</button>
+        </div>
+
+    </div>
+</nav>
+
+
+
+
+<!--
 <nav>
     <div>
 
@@ -20,3 +52,4 @@
 
     </div>
 </nav>
+-->
